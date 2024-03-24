@@ -4,7 +4,9 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./components/Header";
 
-export const inter = Inter({ subsets: ["latin"] });
+export const inter = Inter({ 
+  subsets: ["latin"] 
+});
 
 export const jetBrains = JetBrains_Mono({ 
   subsets: ["latin"],
@@ -21,7 +23,7 @@ export const margesh = localFont({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en">  
       <body className={margesh.className}>
         <Header />
         {children}

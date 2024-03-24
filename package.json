@@ -9,12 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@splinetool/react-spline": "^2.2.6",
+    "@splinetool/runtime": "^1.0.54",
     "@studio-freight/lenis": "^1.0.35",
     "framer-motion": "^11.0.5",
     "gsap": "^3.12.5",
     "next": "14.1.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "sharp": "^0.33.3"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
